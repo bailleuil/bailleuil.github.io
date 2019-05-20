@@ -25,7 +25,7 @@ let center;
 let gradient;
 let tick;
 let particleProps;
-let positions;
+let positions; 
 let velocities;
 let lifeSpans;
 let speeds;

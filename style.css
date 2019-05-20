@@ -30,11 +30,13 @@ header {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 14px;
+   /*padding: 14px;*/
     display: flex;
     height: 58px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    position:fixed;`*/
+    top: 0%;
 }
 
 nav {
@@ -180,30 +182,29 @@ ul li a {
     background-image: url(img/projet/projet-f.png);
     background-size: 100%;
 }
-#hobbies{
 
-    list-style: none;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    background-position-x: center;
-    background-position-y: center;
-    margin-bottom: 40px;
-    border-color:#dbd7d7;;
-    width: 260px;
-    height: 260px;
-    opacity: 1;
-    background-color: white;
+.prez-text .hobby{
+    display: flex;
+    grid-row: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+
 }
-
+/*
 .bd{
    
-        background-image: url(img/loisir/bd.png); 
+     background-image: url(img/loisir/bd.png); 
 }
+
 .escalade{
    
     background-image: url(img/loisir/escalade); 
 }
+.alpinisme{
+    background-image: url(img/loisir/alpinisme);  
+}
+*/
 form {
     width: 80%;
 }
