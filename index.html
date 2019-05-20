@@ -1,1 +1,150 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="conteneur">
+    <header>
+      <nav>
+        <ul>
+          <li><a target="_blank" href="doc/cv.pdf">CV</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/coralie-bailleuil-5b475183/">Linkedin</a></li>
+        </ul>
+      </nav>
+      <!-- les target blank je fonctionnent pas dans ma barre de navigation je ne comprends pas pourquoi  -->
+    </header>
+    <div class="big-space-presentation"></div>
+
+    <div class="prez"></div>
+    <div class="prez-text">
+      <p> Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Praesent efficitur libero id est efficitur fringilla.
+        Suspendisse mollis malesuada lacus ut euismod. Aenean vehicula cursus
+        feugiat. Phasellus elementum urna sit amet mauris placerat, finibus
+        rhoncus dolor porta. Vestibulum mattis sapien quis eros mattis, sit
+        amet suscipit nisl sagittis. Morbi fermentum, orci nec elementum posuere,
+        felis turpis placerat ligula, ac efficitur odio ligula nec dolor. Mauris
+        at urna odio. Quisque in rhoncus nulla, luctus tincidunt massa.
+        Pellentesque pharetra felis id faucibus faucibus.
+        <br>
+        <br>
+        In euismod justo feugiat nulla tristique varius. Curabitur
+        vel lacus vel odio maximus volutpat. Integer fringilla feugiat
+        tortor malesuada luctus. Curabitur dictum ligula purus, accumsan
+        interdum turpis aliquam ac. Etiam interdum erat scelerisque feugiat
+        hendrerit. In in turpis sed tellus mattis cursus eget nec eros.
+        In efficitur ac ligula vitae condimentum. Proin laoreet blandit
+        massa eu aliquam. </p>
+    </div>
+
+    <h1 id="portfolio">Portfolio</h1>
+    <div class="galerie">
+      <div class="projet-ligne">
+
+        <a target="_blank" href="PROJET/c1web104p9/index.html"><button class="projet projeta">
+            <p>intruction:<br>"For today’s project, we will use GSAP framework to animate a factory
+              with JS.You can find everything you need to begin this project at https://greensock.com/"
+              <br><br><br><br>Dans ce projet j'ai pu vraiment apprecier le langage java-scripte et me sentir plus à
+              l'aise.</p>
+            <br><br><br>
+            <p>clickez!</p>
+
+          </button></a>
+        <a target="_blank" href="PROJET/c1web104p6/index.html"><button class="projet projetb">
+            <p>instruction:<br> "Today, you will be introduced to CSS frameworks.Look for responsive
+              design as it will be valued as bonus. All HTML pages must respect the basic HTML
+              structure.http://materializecss.com/https://github.com/Dogfalo/materialize" </p>
+            <br><br><br>
+            <p>clickez!</p>
+          </button></a>
+        <a target="_blank" href="PROJET/c1web104p5/index.html"><button class="projet projetc">
+            <p>instruction:<br> "Using SASS and LESS you need to reproduce the following mock-up."</p>
+            <br><br><br>
+            <p>clickez!</p>
+
+          </button></a>
+
+        <a target="_blank" href="PROJET/c1web104p4/index.html"><button class="projet projetd">
+            <p>instruction:<br>"Today, "you will be introduced to SASS and LESS.Look for responsive design as it will
+              be valued as bonus.All HTML pages must respect the basic HTML structure.</p>
+            <br><br><br>
+            <p>clickez !</p>
+          </button></a>
+        <a target="_blank" href="PROJET/animation/animation.html"><button class="projet projete">
+          <p>instruction:<br>"Step1My_SpotifyCreate a view to first let the user authorize your application to communicate
+             with his Spotify account.Maybe you should take a look at the Spotify authorization guide.<br>
+             Step2My_SpotifyNow that the user is logged, list all the playlists of its account on the "/" 
+             route.<br>Step3My_SpotifyOn a click on a playlist name, move to the view of this playlist on the 
+             route "playlist_id".This view must display all the tracks of the playlist.Step4My_SpotifyBack 
+               on the home view, add a button to create a new playlist on user account.Clicking on this button
+                must show a form with every field that seems relevant for you"</p>
+        </button></a>
+        <a target="_blank" href="PROJET/Accessibilité-sementics/index.html"><button class="projet projetf">
+            <p>Paying attention to Accessibilité-sementics, reproduce the the following mock-up with HTML and CSS </p>
+            <br><br><br><p>clickez!</p>         
+          </button></a>
+      </div>
+
+    </div>
+
+
+    <h1 id="hobbies">Hobbies</h1>
+    <div class="prez-text hobby">
+      <img class="bd" src="img/loisir/bd.png" alt="" />
+      <img class="escalade" src="img/loisir/escalade.png" alt="" />
+      <img class="alpinisme" src="img/alpinisme.png" alt="" />
+      <img class="course à pied" src="img/loisir/semi.png" alt="" />
+    </div>
+
+
+    <h1 id="contact">Contact</h1>
+
+
+
+    <!-- <input type="text" name="name"> -->
+    <!-- <input type="email" name="_replyto"> -->
+    <!-- <input type="submit" value="Send"> -->
+
+    <div class="prez-text">
+      <form class="" action="https://formspree.io/email@domain.tld" method="POST">
+        <label for="name">Nom Prenom</label><br>
+        <input class="fullwidth" type="text" id="name" required=""><br>
+        <label for="email">E-mail</label><br>
+        <input class="fullwidth" type="email" name="emailaddress" id="email" required=""><br>
+        <label for="f-message">Your Message</label><br>
+        <textarea id="f-message" rows="6"></textarea>
+        <div class="send">
+
+          <button value="ENVOYER" id="bouton_envoi">ENVOYER</button><br>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- class="content content--canvas"> -->
+
+  <div class="content content--canvas">
+  </div>
+
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
+  <script type="text/javascript" src="anim2.js"></script>
+  <script type="text/javascript" src="noise.min.js"></script>
+  <script type="text/javascript" src="util.js"></script>
+</body>
+
+</html>
