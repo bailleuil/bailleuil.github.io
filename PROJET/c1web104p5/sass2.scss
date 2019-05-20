@@ -1,0 +1,221 @@
+$bg_color-blue:#dcedf7;
+
+@mixin nomargin(){
+    padding:0;
+    margin:0;
+}
+
+@mixin txblc(){
+    color: white;
+}
+@mixin miseaucentre(){
+    text-align:center;
+    justify-content: center;
+} 
+h1{
+    color: #dcedf7;
+    font-size: 1px;
+}
+
+
+body{
+    @include nomargin();
+}
+.conteneur{
+    max-width: 900px;
+    margin: auto;   
+}
+header{
+    position: relative;
+    background-image: url("img/header.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 24vw;
+    @include miseaucentre();
+    @include txblc();
+}
+.titre{
+    position: absolute;
+    z-index: 1;
+    left: 23%;
+    top: 26px;
+    justify-content: center;
+    width: 50%;
+}
+.part-1{
+    background-color:$bg_color-blue;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+  //  position :relative;
+}
+.part-2{
+    display:flex;
+
+.logorond{
+  width: 30%;
+}
+.card{
+    width: 900px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 3px 32px 0px 34Px;
+}
+
+.card h2 {
+    font-size: 31px;
+    font-weight: normal;
+    @include txblc();
+}
+
+.card p {
+    font-size: 1.5em; 
+    padding: 0, 8%;
+    @include txblc();
+    text-align: justify;
+}
+.card .logorond{
+    position: relative;
+    margin:0 25%;
+    width:50% ;
+    margin-top: 36px;
+    
+}
+.tslesh3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 43px;
+    justify-content: flex-end;
+    margin: 8px,22px,19px,43px;
+    justify-content: flex-end;
+  
+    top: 5px;
+    top: 0px;
+
+}
+.part-2{
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 33px;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 3;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    @include txblc();
+    //background-color:$bg_color-blue;
+}
+
+.caroussel{
+    position: relative;
+    @include nomargin();
+}
+}
+
+
+.one{
+  
+  background:lighten($bg_color-blue, 10%);
+  color: white;
+  &:hover {
+    background-color : lighten($bg_color-blue, 5%);
+  }
+}
+.two{
+       background:lighten($bg_color-blue, 10%);
+        color: white;
+        &:hover {
+        background-color : lighten($bg_color-blue, 20%);
+}
+}
+.three{
+        background:darken($bg_color-blue, 20%);
+        color: white;
+        &:hover {
+        background-color : darken($bg_color-blue, 35%);
+         }
+        }
+.four{
+  
+    background:darken($bg_color-blue, 30%);
+    color: white;
+    &:hover {
+    background-color : darken($bg_color-blue, 40%);
+    }
+}
+
+.grandeimg{
+      width: 100%;
+      display: block;
+  }
+.flecheG{
+    left: 832px;
+    top: 204px;
+    width: 50px;
+    position: absolute;
+}
+.flecheD{
+    left: 28px;
+    top: 204px;
+    width: 50px;
+    position: absolute;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    color: white;
+    
+    text-align: center;
+    
+    left: 1000px;
+    
+    left: 50px;
+    
+    margin-left: center;
+    
+    justify-content: center;
+    
+    margin-top: 21px;
+    
+    padding-bottom: 21px;
+}
+.part-4
+{
+    background-color:$bg_color-blue;
+    @include nomargin();
+}
+h4{
+    padding: 0;
+    padding-top: 0px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: #dcedf7;
+    padding-top: 16px;
+    font-size: 33px;
+}
+footer{
+    font-size: 18px;
+    padding: 9px;
+    margin: 0;
+    background-color: #60c2fc;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.fullwidth{
+    margin-right: 32px;
+    padding: 7px;
+    left: 27px;
+}
+.fullwidth
+{
+    margin-right: 30px;
+}
+.recbleu .four{
+    background-color: darken($bg_color-blue, 20%);
+}
