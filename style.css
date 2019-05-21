@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 h1 {
     margin: 70px 0 20px;
     font-size: 4em;
@@ -52,7 +51,6 @@ nav {
     justify-content: center;
     flex-flow: row;
 }
-
 ul {
     margin: auto;
     padding: 0;
@@ -61,24 +59,20 @@ ul {
     flex-flow: wrap;
     width: 100%;
 }
-
 ul li {
     list-style: none;
     width: 20%;
 }
-
 ul li:hover {
    /* background: #ffff80;*/
    font-size: 1.2em;
    font-weight: bold;
 }
-
 ul li a {
     color: #555;
     text-decoration: none;
     font-weight: bold;
 }
-
 .prez {
 
     background-image: url(img/prez.png);
@@ -88,12 +82,11 @@ ul li a {
     width: 260px;
     height: 260px;
     margin-top: 50px;
-
+    margin-top: 13%;
 }
-
 .prez-text {
 
-    background-color: #f2efef;
+    background-color:#f2efef;
     padding: 15px;
     margin-top: 50px;
     color: #555;
@@ -105,7 +98,6 @@ ul li a {
     flex-flow: wrap;
     border-radius: 15px;
 }
-
 .prez-text p {
     margin: 15px;
     text-align: justify;
@@ -114,7 +106,6 @@ ul li a {
     flex-wrap: wrap;
     margin-top: 50px;
 }
-
 .projet-ligne {
     display: flex;
     grid-row: center;
@@ -123,11 +114,9 @@ ul li a {
     flex-flow: wrap;
 
 }
-
 .projet-ligne a:focus {
     outline: none;
 }
-
 .projet {
 
     list-style: none;
@@ -143,26 +132,21 @@ ul li a {
     opacity: 1;
     background-color: white;
 }
-
 .projet:hover {
     opacity: 1;
     background-image: none;
     background-size: 100%;
 }
-
 .projet p {
     justify-content: center;
     display: none;
 }
-
 .projet:hover p {
     display: block;
 }
-
 .projeta {
     background-image: url(img/projet/projet-a.png);
 }
-
 .projetb {
     background-image: url(img/projet/projet-b.png);
     background-size: 88%;
@@ -182,14 +166,12 @@ ul li a {
     background-image: url(img/projet/projet-f.png);
     background-size: 100%;
 }
-
 .prez-text .hobby{
     display: flex;
     grid-row: center;
     flex-direction: row;
     justify-content: space-between;
     flex-flow: wrap;
-
 }
 /*
 .bd{
@@ -225,7 +207,6 @@ form textarea {
     height: 30px;
     padding: 0 15px;
 }
-
 form textarea {
     height: 90px;
     padding: 15px;
@@ -281,7 +262,8 @@ input[type=submit] {
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 600px wide, make the 
+two columns stack on top of each other instead of next to each other */
 @media (max-width: 780px) {
 
     .col-25,
@@ -297,15 +279,16 @@ input[type=submit] {
         flex-direction: row;
         justify-content: center;
         flex-flow: column;
-
     }
     ul li:hover {
         /* background: #ffff80;*/
         font-size: 1.2em;
      }
+.prez{
+    margin-top: 34%;
 }
-
 .content--canvas {
     overflow: hidden;
 }
 
+}
