@@ -102,6 +102,7 @@ ul li a {
     margin: 15px;
     text-align: justify;
 }
+
 .galerie {
     flex-wrap: wrap;
     margin-top: 50px;
@@ -159,34 +160,26 @@ ul li a {
     background-image: url(img/projet/projet-d.png);
 }
 .projete {
-    background-image: url(img/projet/projet-f.png);
+    background-image: url(img/projet/projet-e.png);
     background-size: 100%;
 }
 .projetf {
     background-image: url(img/projet/projet-f.png);
     background-size: 100%;
 }
-.prez-text .hobby{
+.prez-text.hobby{
     display: flex;
     grid-row: center;
     flex-direction: row;
     justify-content: space-between;
     flex-flow: wrap;
+    width: 100%;
+    background-color:#f2efef;
+    padding-top: 15px;
 }
-/*
-.bd{
-   
-     background-image: url(img/loisir/bd.png); 
+.prez-text.hobby img{
+    padding-top: 15px;
 }
-
-.escalade{
-   
-    background-image: url(img/loisir/escalade); 
-}
-.alpinisme{
-    background-image: url(img/loisir/alpinisme);  
-}
-*/
 form {
     width: 80%;
 }
@@ -222,6 +215,9 @@ form textarea {
 }
 #bouton_envoi:hover{
     font-size: larger;
+}
+.send{
+    text-align: center;
 }
 /* Style the submit button */
 input[type=submit] {
@@ -262,6 +258,7 @@ input[type=submit] {
     clear: both;
 }
 
+
 /* Responsive layout - when the screen is less than 600px wide, make the 
 two columns stack on top of each other instead of next to each other */
 @media (max-width: 780px) {
@@ -287,6 +284,7 @@ two columns stack on top of each other instead of next to each other */
 .prez{
     margin-top: 34%;
 }
+
 .content--canvas {
     overflow: hidden;
 }
