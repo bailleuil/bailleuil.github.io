@@ -1,6 +1,7 @@
 //import { get } from "https";
 //************************************************** */emjie*LOVE//
 window.onload=function() {
+  document.body.style.zoom="50%"
   //var tools = document.getElementsByClass("tools");
   
 var love =document.querySelector("#love");

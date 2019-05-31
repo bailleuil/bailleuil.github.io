@@ -1,6 +1,6 @@
 body {
 
-    font-family: New-Helvetica, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 }
 .conteneur {
-    font-family: New-Helvetica;
+    font-family: Helvetica;
     padding: 0;
     max-width: 900px;
     margin: auto;
@@ -87,7 +87,7 @@ ul li a {
 .prez-text {
 
     background-color:#f2efef;
-    padding: 15px;
+    padding: 20px;
     margin-top: 50px;
     color: #555;
     font-weight: bold;
@@ -98,11 +98,27 @@ ul li a {
     flex-flow: wrap;
     border-radius: 15px;
 }
+.f-s-15em{
+    font-size: 1.5em;
+}
+.f-s-1-4em{
+    font-size:1.3em;
+}
+.f-s-1-1em{
+    font-size: 1.3em;   
+    padding: 15px;  
+}  
+.f-s-1em{
+    font-size: 1.3em;     
+}  
 .prez-text p {
     margin: 15px;
+    text-align: justify;        
+}
+.hobby p{
+    margin: 0px;    
     text-align: justify;
 }
-
 .galerie {
     flex-wrap: wrap;
     margin-top: 50px;
@@ -137,6 +153,7 @@ ul li a {
     opacity: 1;
     background-image: none;
     background-size: 100%;
+    cursor: pointer;
 }
 .projet p {
     justify-content: center;
@@ -155,13 +172,16 @@ ul li a {
 
 .projetc {
     background-image: url(img/projet/projet-c.png);
+   
 }
 .projetd {
     background-image: url(img/projet/projet-d.png);
+   
 }
 .projete {
     background-image: url(img/projet/projet-e.png);
     background-size: 100%;
+
 }
 .projetf {
     background-image: url(img/projet/projet-f.png);
@@ -212,6 +232,7 @@ form textarea {
     background-color: whitesmoke;
     border-block-color: black;
     font-size: medium;
+    cursor: pointer;
 }
 #bouton_envoi:hover{
     font-size: larger;
