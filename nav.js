@@ -14,7 +14,7 @@
        $(window).scroll(function(){
            var height = $(window).scrollTop();
 console.log(height);
-          if (height < 200){
+          if (height < 300){
           $( "#position-1" ).addClass('offre_current'); 
           $( "#position-2" ).removeClass('offre_current');
           $( "#position-3" ).removeClass('offre_current');
@@ -26,7 +26,7 @@ console.log(height);
            $( "#position-3" ).removeClass('offre_current');
            $( "#position-4" ).removeClass('offre_current');
         }
-        else if (height <6900){
+        else if (height <7955){
           $( "#position-3" ).addClass('offre_current'); 
           $( "#position-1").removeClass('offre_current');
           $( "#position-2" ).removeClass('offre_current');
