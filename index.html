@@ -43,34 +43,47 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a target="_blank" href="doc/cv.pdf">CV</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/in/coralie-bailleuil-5b475183/">Linkedin</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <ul id="box">
+              <li id="position-1" class="offre"><a href="#home">Home</a></li>
+            <li id="position-2" class="offre"><a href="#portfolio">Portfolio</a></li>
+            <li id="position-3"class="offre"><a href="#about">About</a></li>
+            <li id="position-4"class="offre"><a href="#contact">Contact</a></li>
+          </ul>
+          <!-- essai -->
+          <!-- <li class="active"><a href="#portfolio">Portfolio</a></li>
+           <li><a target="_blank" href="doc/cv.pdf">CV</a></li> -->
+          <!-- <li id="offre_2" class="offre"></li><a href="#hobbies"  onclick="affiche_offre(2);" >About-me</a></li> -->
+          <!-- <li><a target="_blank" href="https://www.linkedin.com/in/coralie-bailleuil-5b475183/">Linkedin</a></li> -->
+          <!-- <li id="offre_3" class="offre"></li><a href="#contact"  onclick="affiche_offre(1);" >Contact</a></li> -->
         </ul>
       </nav>
-      <!-- les target blank je fonctionnent pas dans ma barre de navigation je ne comprends pas pourquoi  -->
+
+
     </header>
     <div class="big-space-presentation"></div>
 
-    <div class="prez"></div>
+    <div id= "#home"class="prez"></div>
     <div class="prez-text">
-      <p><span class="f-s-15em">Passionnée par l'image, j'ai travaillé en equipe pour des photographes
+      <p>DÉVELOPPEUR FRONT-END à la Coding Academy by Epitech <br><br>
+
+        Recherche stage de 4 à 6 mois à partir de septembre <br><br>
+
+        HTML - CSS/SASS - JAVASCRIPT- ANGULAR - REACT - PHP - SEO - OPQUAST </p><br>
+      <!-- <p><span class="f-s-15em">Passionnée par l'image, j'ai travaillé en equipe pour des photographes
           de mode de renomée mondiale pour des magasins et campagne publicitaire.</span><br><br>
 
         <span class="f-s-1-4em">Après 20 ans d'évolutions dans ce monde, l'envie de nouvelles découvertes
           s'est concrétisée sur le developpement web et confimer via un bilan de compétances.</span></p><br><br>
-      
-        <span class="f-s-1-1em">La formation intensive de la coding academy by Epitech a comencé par une première piscine
+       -->
+      <!-- <span class="f-s-1-1em">La formation intensive de la coding academy by Epitech a comencé par une première piscine
         PHP de 3" semaines et une seconde de javascript sur une semaine.<br><br>
         Au sein de cette formation où l'on cultive l'autonmie, j'ai appris à utiliser differents
         langages en réalisant des projets imposés.<br><br>
         Cette mise en situation me permet de je vous presenter
-        certains de ces projets dans le portfolio ici dessous.</span></p>
-      </div>
-      <h1 id="portfolio">Portfolio</h1>
-      <div class="galerie">
+        certains de ces projets dans le portfolio ici dessous.</span></p> -->
+    </div>
+    <h1 id="portfolio">Portfolio</h1>
+    <div class="galerie">
       <div class="projet-ligne">
 
         <a target="_blank" href="projet/c1web104p9/index.html"><button class="projet projeta">
@@ -79,7 +92,7 @@
               <br><br><br><br>Dans ce projet j'ai pu vraiment apprecier le langage java-scripte et me sentir plus à
               l'aise.</p>
             <br>
-           
+
 
           </button></a>
         <a target="_blank" href="projet/c1web104p6/index.html"><button class="projet projetb">
@@ -87,12 +100,12 @@
               design as it will be valued as bonus. All HTML pages must respect the basic HTML
               structure.http://materializecss.com/https://github.com/Dogfalo/materialize" </p>
             <br>
-        
+
           </button></a>
         <a target="_blank" href="projet/c1web104p5/index.html"><button class="projet projetc">
             <p>instruction:<br> "Using SASS and LESS you need to reproduce the following mock-up."</p>
             <br>
-           
+
 
           </button></a>
 
@@ -100,7 +113,7 @@
             <p>instruction:<br>"Today, "you will be introduced to SASS and LESS.Look for responsive design as it will
               be valued as bonus.All HTML pages must respect the basic HTML structure.</p>
             <br>
-           
+
           </button></a>
         <a target="_blank" href=""><button class="projet projete">
             <p>instruction:<br>"Step1My_SpotifyCreate a view to first let the user authorize your application to
@@ -115,15 +128,16 @@
           </button></a>
         <a target="_blank" href="projet/accessibilitee-sementics/index.html"><button class="projet projetf">
             <p>Paying attention to Accessibilité-sementics, reproduce the the following mock-up with HTML and CSS </p>
-           
+
           </button></a>
       </div>
 
     </div>
 
 
-    <h1 id="hobbies">Hobbies</h1>
-    <div class="prez-text hobby">
+
+    <h1 id="about">about</h1>
+    <div class="prez-text about">
       <a>
         <p>BD /Rommans graphiques</p><img class="bd" src="img/loisir/bd.png" alt="" />
       </a>
@@ -164,15 +178,9 @@
   <script type="text/javascript" src="anim2.js"></script>
   <script type="text/javascript" src="noise.min.js"></script>
   <script type="text/javascript" src="util.js"></script>
+  <script type="text/javascript" src="nav.js"></script>
   <script type="materialize" src=""></script>
-  <!-- <sript>dataLayer.push({
-    'event': 'santianoEvent'
-    'eventCategory': 'utilisateur',
-    'eventAction' :'Formulaire de contact',
-    'enventLabel': 'message envoyé'
-    'enventValue':'1'
-  });
-  </sript> -->
+
 </body>
 
 </html>
