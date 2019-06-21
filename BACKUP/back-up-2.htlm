@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    datalayer = [{}];
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NTD9VFT');
+  </script>
+  <!-- End Google Tag Manager -->
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTD9VFT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="conteneur">
+    <header>
+      <nav>
+        <ul id="box">
+          <li id="position-1" class="offre"><a href="#home">Home</a></li>
+          <li id="position-2" class="offre"><a href="#portfolio">Portfolio</a></li>
+          <li id="position-3" class="offre"><a href="#about">About</a></li>
+          <li id="position-4" class="offre"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- premiere partie prez -->
+    <div class="big-space-presentation"></div>
+    <div id="home" class="prez"></div>
+    <div class="prez-text">
+      <h1> En formation de DÉVELOPPEUR FRONT-END à la <a href="https://www.coding-academy.fr
+        /?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNoKRuRGgS6b6vBxf1np16ONQvQDDrJ2pjsJl
+        yjL4Vl9bRS6nj6UFGhoC65gQAvD_BwE">Coding Academy by Epitech</a><br><br></h1>
+
+      <a href="#contact">RECHERCHE de STAGE de 4 à 6 mois à partir de SEPTEMBRE </a><br><br>
+
+      HTML - CSS/SASS - JAVASCRIPT- ANGULAR - REACT - PHP - SEO - OPQUAST </p><br>
+
+    </div>
+    <div class="prez-text">
+      <span class="f-s-1-1em">
+        Via cette formation où l'on cultive l'autonmie,je peux aujourd'hui creer de site
+        et vous presenter ci-dessous mes projets et bientot d'autres !!!
+      </span></p>
+
+    </div>
+    <!-- premiere partie prez -->
+    <p class="gros-titre" id="portfolio">Portfolio</p>
+    <div class="galerie">
+      <div class="projet-ligne">
+
+
+        <!-- <!-projet a -  -->
+        <div class="projet projeta">
+          <!-- <a target="_blank" href="projet/c1web104p9/index.html"> -->
+          <div class="div-projet-text">
+            <p class="projet-text">intruction:<br>"For today’s project, we will use GSAP framework to animate a
+              factory
+              with JS.You can find everything you need to begin this project at https://greensock.com/"
+              <br><br><br><br>Dans ce projet j'ai pu vraiment apprecier le langage java-scripte et me
+              sentir plus l'aise.
+            </p>
+          </div>  
+          <div class="div-projet-img">
+            <a href="projet/c1web104p6/index.html" target="_blank">
+              <img class="img-3" src="img/projet/projet-a.png" alt="" />
+            </a>
+           
+          </div>
+
+        </div>
+      </div>
+
+      <!-- <!-projet a -  -->
+
+
+
+
+      <a class="projet projetb">
+        <p >instruction:<br> "Today, you will be introduced to CSS frameworks.Look for responsive
+          design as it will be valued as bonus. All HTML pages must respect the basic HTML
+          structure.http://materializecss.com/https://github.com/Dogfalo/materialize" </p>
+        <br>
+      </a>
+
+      <a target="_blank" href="projet/c1web104p5/index.html">
+        <a class="projet projetc">
+          <p>instruction:<br> "Using SASS and LESS you need to reproduce the following mock-up."</p>
+          <br>
+        </a></a>
+
+      <a target="_blank" href="projet/c1web104p4/index.html">
+        <a class="projet projetd">
+          <p>instruction:<br>"Today, "you will be introduced to SASS and LESS.Look for responsive design as it
+            will
+            be valued as bonus.All HTML pages must respect the basic HTML structure.</p>
+          <br>
+        </a></a>
+
+      <a target="_blank" href="">
+        <a class="projet projete">
+          <p>instruction:<br>"Step1My_SpotifyCreate a view to first let the user authorize your application to
+            communicate
+            with his Spotify account.Maybe you should take a look at the Spotify authorization guide.<br>
+            Step2My_SpotifyNow that the user is logged, list all the playlists of its account on the "/"
+            route.<br>Step3My_SpotifyOn a click on a playlist name, move to the view of this playlist on the
+            route "playlist_id".This view must display all the tracks of the playlist.Step4My_SpotifyBack
+            on the home view, add a button to create a new playlist on user account.Clicking on this button
+            must show a form with every field that seems relevant for you"</p>
+        </a></a>
+
+      <a target="_blank" href="projet/accessibilitee-sementics/index.html">
+        <a class="projet projetf">
+          <p>Paying attention to Accessibilité-sementics, reproduce the the following mock-up with HTML and CSS
+          </p>
+        </a></a>
+
+    </div>
+
+    <p1 class="gros-titre">About</p1>
+    <div></div>
+    <div class="prez-text">
+
+
+      <p><span class="f-s-15em">Passionnée par l'image, j'ai travaillé en equipe pour des photographes
+          de mode de renomée mondiale pour des magasins et campagne publicitaire.</span><br><br>
+
+        <span class="f-s-1-4em">Après 20 ans d'évolutions dans ce monde, l'envie de nouvelles découvertes
+          s'est concrétisée sur le developpement web et confimer par un bilan de compétances.</span></p><br><br>
+
+      </p>
+
+    </div>
+
+    <P class="gros-titre" id="about">Hobbies</p>
+    <div class="prez-text about">
+
+      <a>
+        <p>Escalade</p><img class="escalade" src="img/loisir/escalade.png" alt="" />
+      </a>
+      <a>
+        <p>Alpinisme</p><img class="alpinisme" src="img/loisir/alpinisme.png" alt="" />
+      </a>
+      <a>
+        <p>Course à pied</p><img class="course à pied" src="img/loisir/semi.png" alt="" />
+      </a>
+      <a>
+        <p>BD /Rommans graphiques</p><img class="bd" src="img/loisir/bd.png" alt="" />
+      </a>
+    </div>
+    <p class="gros-titre" id="contact">Contact</p>
+    <div class="prez-text">
+      <form class="" action="https://formspree.io/coralie.bailleuil@coding-academy.fr" method="POST">
+        <label for="name">Nom Prénom</label><br>
+        <input name="name" class="fullwidth" type="text" id="name" required=""><br>
+        <label for="email">E-mail</label><br>
+        <input name="email" class="fullwidth" type="email" name="emailaddress" id="email" required=""><br>
+        <label for="f-message">Message</label><br>
+        <textarea name="message" id="f-message" rows="6"></textarea>
+        <div class="send">
+
+          <button value="ENVOYER" id="bouton_envoi">ENVOYER</button><br>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <nav class="nav-foot" footer>
+        <ul>
+          <li><a id="cv" target="_blank" src="img/cv.png" href="doc/cv.pdf"></a></li>
+          <li><a id="linkedin" target="_blank" src="img/linekedin.png"
+              href="https://www.linkedin.com/in/coralie-bailleuil-5b475183/"></a></li>
+          <!-- <li id="offre_3" class="offre"></li><a href="#contact"  onclick="affiche_offre(1);" >Contact</a></li> -->
+        </ul>
+      </nav>
+    </footer>
+  </div>
+
+  <!-- class="content content--canvas"> -->
+
+  <div class="content content--canvas"></div>
+
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script> -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
+  <script type="text/javascript" src="anim2.js"></script>
+  <script type="text/javascript" src="noise.min.js"></script>
+  <script type="text/javascript" src="util.js"></script>
+  <script type="text/javascript" src="nav.js"></script>
+  <script type="materialize" src=""></script>
+
+</body>
+
+</html>
