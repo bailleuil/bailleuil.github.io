@@ -29,8 +29,9 @@ span{
 }
 
 .prez-text a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: gray;
+    font-weight: bold;
 }
 .stage{
     color: black;
@@ -160,7 +161,7 @@ ul li a {
     background-color: whitesmoke;
     padding: 20px;
     margin-bottom: 75px;
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 100%;
     display: flex;
     grid-row: center;
@@ -168,6 +169,14 @@ ul li a {
     flex-flow: wrap;
     border-radius: 15px;
     font-size: 28px;
+}
+.linkedin {
+    padding: 20px;
+  
+}
+.curriculum-vitae{
+    padding: 20px;
+   
 }
 
 .f-s-15em {
@@ -229,7 +238,7 @@ p{
 }  
 .projet-capt {
     width: 45%;
-    background-color: pink;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -259,7 +268,7 @@ p{
     background-color: whitesmoke;
     padding: 20px;
     /* margin-top: 40px; */
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 45%;
     display: flex;
     grid-row: center;
@@ -331,10 +340,10 @@ form textarea {
     font-size: medium;
     cursor: pointer;
 }
-
+/* 
 #bouton_envoi:hover {
     font-size: larger;
-}
+} */
 
 .send {
     text-align: center;
