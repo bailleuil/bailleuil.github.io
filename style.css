@@ -192,8 +192,10 @@ ul li a {
     padding: 15px;
 }
 
-.f-s-1em {
+.f-s-1em-center{
     font-size: 1.3em;
+    justify-content: center;
+
 }
 
 .prez-text p {
