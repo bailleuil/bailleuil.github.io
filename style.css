@@ -187,9 +187,10 @@ ul li a {
     font-size: 1.3em;
 }
 
-.f-s-1-1em {
+.f-s-1-1em-center{
     font-size: 1.3em;
     padding: 15px;
+    text-align: center;
 }
 
 .f-s-1em-center{
@@ -236,7 +237,7 @@ p{
     /* width: 100%; */
     border-radius: 20px;
     margin: 0;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }  
 .projet-capt {
     width: 45%;
@@ -277,7 +278,7 @@ p{
     justify-content: center;
     flex-flow: wrap;
     /* border-radius: 15px; */
-    overflow: scroll;
+    overflow: auto;
     font-size: 1.5em;
 }
 /*********************************projet**************************/
@@ -328,7 +329,7 @@ form textarea {
 }
 
 form textarea {
-    height: 90px;
+    /* height: 90px; */
     padding: 15px;
     margin-bottom: 30px;
 }
@@ -445,8 +446,16 @@ two columns stack on top of each other instead of next to each other */
         padding: 0%, 0%, 0%, 0%;
         text-align: center;
     }
-
-    .projet-ligne {
+    .prez-text a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    }
+    .prez-text{
+        text-align: center;
+    }
+    .projet-text{
         display: flex;
         grid-row: center;
         flex-direction: row;
@@ -462,8 +471,13 @@ two columns stack on top of each other instead of next to each other */
     .prez {
         margin-top: 34%;
     }
-
-    /* .projet {
+    .prez-text p{
+        text-align: center;
+    }
+    .projet{
+        flex-flow: column;
+    }
+     .projet-text{
 
         list-style: none;
         background-size: 100%;
@@ -474,28 +488,64 @@ two columns stack on top of each other instead of next to each other */
         margin-bottom: 40px;
         border-color: #dbd7d7;
         width: 90%;
-        height: 90px;
+        /* height: 90px; */
         opacity: 1;
         flex-flow: column; 
         display: inline-table;
-    } */
+        justify-content: center
+    }
+    .projet-capt{
+
+        list-style: none;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* border-radius: 30px; */
+        background-position-x: center;
+        background-position-y: center;
+        margin-bottom: 40px;
+        border-color: #dbd7d7;
+        width: 90%;
+        /* height: 90px; */
+        opacity: 1;
+        flex-flow: column; 
+        display: inline-table;
+        justify-content: center
+    }
+ 
+.projet{
+    display: flex;
+    /* grid-row: ; */
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: column;
+    padding: 20px;
+    background-color: #d6d6d6;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+}
+
 
     .div-projet-capt{
         width: 90%;
+        justify-content: center
 
     }
 
     .div-projet-text{
         
         width: 90%;
+        justify-content: center
         
     }
-    .div-projet-capt img{
+    .div-projet-capt{
         width: 90%;
+        justify-content: center
     }
     
     .content--canvas {
         overflow: hidden;
+        justify-content: center
     }
 
     .prez-text.about{
