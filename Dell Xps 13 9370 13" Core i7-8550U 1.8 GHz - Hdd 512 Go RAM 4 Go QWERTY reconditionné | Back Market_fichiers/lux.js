@@ -1,1 +1,0 @@
-console.log('SPEEDCURVE LUX ERROR: Account is not active.'); LUX = (function () { return { mark: function(){}, measure: function(){}, init: function(){}, send: function(){}, addData: function(){}, doUpdate: function(){} }; })();

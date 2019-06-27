@@ -1,1 +1,0 @@
-DCInfosCallback({"country":"FR","region":"A8","city":"Levallois-perret","latitude":48.8939,"longitude":2.2886,"postal_code":"92300","browser":"Mozilla Firefox","ip":"163.5.220.27","traffic":null})
