@@ -161,13 +161,13 @@ function resize() {
 
 function renderGlow() {
   ctx.b.save();
-  ctx.b.filter = 'blur(0px) brightness(100%)';/*'blur(8px) brightness(100%)';*/
+  ctx.b.filter = 'blur(0px) brightness(1%)';/*'blur(8px) brightness(100%)';*/
   ctx.b.globalCompositeOperation = 'lighter';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
 
   ctx.b.save();
-  ctx.b.filter = 'blur(0px) brightness(100%)';/*'blur(4px) brightness(200%)';*/
+  ctx.b.filter = 'blur(0px) brightness(10%)';/*'blur(4px) brightness(200%)';*/
   ctx.b.globalCompositeOperation = 'lighter';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();

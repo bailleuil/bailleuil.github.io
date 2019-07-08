@@ -10,7 +10,7 @@ h1 {
     font-size: 1em;
     width: 100%;
     text-align: center;
-    color:gray;
+    color:#555;
     padding: 20px;
 }
 .langage{
@@ -30,7 +30,7 @@ span{
 
 .prez-text a {
     /* text-decoration: none; */
-    color: gray;
+    color: #555;
     font-weight: bold;
 }
 .stage{
@@ -41,7 +41,7 @@ span{
     padding: 0;
     max-width: 900px;
     margin: auto;
-    color: rgb(70, 69, 69);
+    color:#555(70, 69, 69);
     overflow: hidden;
     z-index: 1;
     position: relative;
