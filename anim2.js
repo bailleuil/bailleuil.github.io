@@ -9,7 +9,7 @@ const rangeSpeed = 1;
 const baseSize = 2;
 const rangeSize = 10;
 const baseHue = 100;/*av:10*/
-const rangeHue =600;/*avant 100*/
+const rangeHue =100;/*avant 100*/
 const noiseSteps = 2;
 const xOff = 0.0025;
 const yOff = 0.005;
@@ -111,7 +111,7 @@ function drawParticle(x, y, theta, life, ttl, size, hue) {
   ctx.a.save();
   ctx.a.lineCap = 'round';
   ctx.a.lineWidth = 1;
-  ctx.a.strokeStyle = `hsla(${hue},200%,50%,${fadeInOut(life, ttl)})`;/* 100%,60% si 100% 100% =carré blc*/
+  ctx.a.strokeStyle = `hsla(${hue},100%,100%,${fadeInOut(life, ttl)})`;/* 100%,60% si 100% 100% =carré blc*/
   ctx.a.beginPath();
   ctx.a.translate(xRel, yRel);
   ctx.a.rotate(theta);
@@ -161,13 +161,13 @@ function resize() {
 
 function renderGlow() {
   ctx.b.save();
-  ctx.b.filter = 'blur(0px) brightness(150%)';/*'blur(8px) brightness(200%)';*/
+  ctx.b.filter = 'blur(0px) brightness(100%)';/*'blur(8px) brightness(100%)';*/
   ctx.b.globalCompositeOperation = 'lighter';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
 
   ctx.b.save();
-  ctx.b.filter = 'blur(0px) brightness(150%)';/*'blur(4px) brightness(200%)';*/
+  ctx.b.filter = 'blur(0px) brightness(100%)';/*'blur(4px) brightness(200%)';*/
   ctx.b.globalCompositeOperation = 'lighter';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
